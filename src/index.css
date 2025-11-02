@@ -1,14 +1,56 @@
 body {
   margin: 0;
-  background-color: #f9f9f9;
-  color: #001f3f;
   font-family: system-ui, sans-serif;
-  line-height: 1.6;
+  background: #f8f9fb;
+  color: #001f3f;
+  scroll-behavior: smooth;
 }
-h1 {
+
+header.hero {
+  text-align: center;
+  background: linear-gradient(135deg, #002d72, #004a99);
+  color: white;
+  padding: 60px 20px;
+}
+
+.logo {
+  max-width: 180px;
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #002d72;
+  border-bottom: 2px solid #ffcc00;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+button {
+  background-color: #002d72;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #ffcc00;
   color: #002d72;
 }
-p {
-  max-width: 600px;
-  margin: 10px auto;
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #002d72;
+  color: white;
+  font-size: 0.9em;
 }
